@@ -5,6 +5,7 @@ import Card from './components/Card';
 import CoronaForCountry from './components/CoronaForCountry';
 import CoronavirusIcon from '@mui/icons-material/Coronavirus';
 import RecordedCorona from './components/RecordedCorona';
+import CoronaForCountinent from './components/CoronaForContinent';
 
 function App() {
   const [key, setKey] = useState(1);
@@ -29,7 +30,7 @@ function App() {
         )}
         {key === 3 && (
           <div>
-            Kayıtlar <b>Dünya Sağlık Örgütü</b> tarafından onaylanmıştır!
+            <CoronaForCountinent />
           </div>
         )}
       </div>

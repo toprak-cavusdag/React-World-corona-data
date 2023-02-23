@@ -10,19 +10,19 @@ const Header = ({activeTitle,onMenuChange})=>{
 
     const [MenuValue] =useState([
         {
-            title:"Ülkelere Göre Corone Değerleri",
+            title:"Ülkelere Göre Virüs Değerleri",
             value:1,
             icon: <FlagIcon/>
         },
 
         {
-            title:"Kayda Geçmiş Tüm Corona Değerleri",
+            title:"Kayda Geçmiş Tüm Virüs Değerleri",
             value:2,
             icon: <ArticleIcon/>
         },
 
         {
-            title:"Kıtalara Göre Corona Değerleri",
+            title:"Kıtalara Göre Virüs Değerleri",
             value:3,
             icon: <PublicIcon/>
         }
