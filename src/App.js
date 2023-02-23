@@ -16,7 +16,7 @@ function App() {
         }}
       />
 
-      <div className='container mx-auto p-6 '>
+      <div className='container mx-auto p-6'>
         {key === 1 && (
           <div className='container mx-auto p-8'>
             <CoronaForCountry />

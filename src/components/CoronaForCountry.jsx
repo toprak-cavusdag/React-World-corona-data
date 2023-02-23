@@ -29,14 +29,14 @@ const CoronaForCountry = ()=>{
                 <input type="text" value={queryText} onChange={(e)=>{setQueryText(e.target.value)}} 
                 className="shadow-md rounded px-3 py-4 text-gray-700 w-full outline-none font-semibold" placeholder="Bir ülke arayın..."/>
             </div>
-
+            <div className="h-full">
             {loading && (
-                        <div className="flex justify-center flex-col items-center  mt-10">
+                        <div className="flex fixed centered flex-col justify-center items-center z-50 w-full ">
                             <p className="text-rose-500 font-bold spinner"><CoronavirusIcon style={{fontSize:"5rem"}}/></p>
                             <p className="text-rose-500 text-center ml-2">Loading...</p>
                         </div>
                     )}
-
+</div>
             <div className="grid grid-cols-3 gap-10 mt-16 ">
                    
 
