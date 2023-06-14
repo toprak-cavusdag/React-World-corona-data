@@ -1,5 +1,5 @@
 
-# Welcome to my React World Corono Data Project 😷
+# Welcome to my React World Corono Data Project 😷 🦠
 
 You can watch the Project here [live]: https://toprak-cavusdag-world-corona-data.netlify.app/
 
@@ -9,6 +9,7 @@ Contact with me: https://www.linkedin.com/in/toprak-%C3%A7avu%C5%9Fda%C4%9F-5184
 **The Warning Data is coming late. Please wait. The problem is with the API. Thank you for your understanding**
 
 
+**Pay attention to your distance and wash your hands 🧼!**
 
 
 
